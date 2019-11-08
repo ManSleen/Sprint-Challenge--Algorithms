@@ -22,6 +22,8 @@ def egg_drop(n):
         < code to somehow test dropping an egg and see if it breaks >
         if broken_eggs == 1:
             f = i
+            break
         
     return f
 
+In this case the runtime complexity would be O(n) aka it would have a linear growth rate, with our number of operations increasing linearly with `n`. In the worst case scenario, we'd have to go up all the way to the top floor and if no eggs broke on the way up.
